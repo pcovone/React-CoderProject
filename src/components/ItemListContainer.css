@@ -1,0 +1,68 @@
+.card-home {
+  /* width: 190px; */
+  height: 254px;
+  margin: 0 auto;
+  background-color: #f8fbfe;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+  padding: 9px;
+}
+
+.circle {
+  padding: 0 4px;
+}
+
+.box {
+  display: inline-block;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  padding: 1px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: #ff605c;
+}
+
+.yellow {
+  background-color: #ffbd44;
+}
+
+.green {
+  background-color: #00ca4e;
+}
+
+.card {
+  margin-bottom: 10px;
+}
+
+.card__content {
+  margin: auto;
+  font-weight: 600;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  height: 164px;
+  justify-content: center;
+}
+
+.card-body {
+  height: 190px;
+}
+
+.wrap-product {
+  width: 100vw;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 318px);
+  align-items: start;
+  justify-content: space-evenly;
+  justify-items: center;
+  background-color: #333;
+}

@@ -1,0 +1,9 @@
+.cart-container {
+  display: flex;
+  width: 50px;
+}
+
+.container-fluid img {
+  margin: auto;
+  margin-right: 8px;
+}
